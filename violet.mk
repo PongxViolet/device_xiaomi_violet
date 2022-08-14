@@ -81,6 +81,7 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.primary.sm6150:32 \
     audio.r_submix.default \
+    sound_trigger.primary.sm6150 \
     audio.usb.default \
     liba2dpoffload \
     libaudio-resampler \
