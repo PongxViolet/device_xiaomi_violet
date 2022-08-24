@@ -6,7 +6,7 @@ rm -rf hardware/qcom-caf/sm8150/display
 
 echo 'Cloning Hals [1/5]'
 # Hals
-git clone --depth=1 https://github.com/SuperiorOS/android_hardware_qcom_audio.git -b twelve-caf-sm8150 hardware/qcom-caf/sm8150/audio
+git clone --depth=1 https://github.com/SuperiorOS/android_hardware_qcom_audio.git -b thirteen-caf-sm8150 hardware/qcom-caf/sm8150/audio
 git clone --depth=1 https://github.com/SuperiorOS/android_hardware_qcom_media.git -b twelve-caf-sm8150 hardware/qcom-caf/sm8150/media
 git clone --depth=1 https://github.com/SuperiorOS/android_hardware_qcom_display.git -b twelve-caf-sm8150 hardware/qcom-caf/sm8150/display
 
@@ -20,7 +20,7 @@ git clone --depth=1 https://github.com/EvolutionXViolet/Azure-caf-4.14.git kerne
 
 echo 'Cloning Firmware [4/5]'
 # Firmware
-git clone --depth=1 https://gitlab.com/princejb786/vendor_xiaomi-firmware_violet.git vendor/xiaomi-firmware/violet
+git clone --depth=1 https://gitlab.com/RealYasin/vendor_xiaomi-firmware_violet.git vendor/xiaomi-firmware/violet
 
 echo 'Cloning Proton clang [5/5]'
 # Proton Clang
