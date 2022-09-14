@@ -11,7 +11,7 @@ $(call inherit-product, device/xiaomi/violet/violet.mk)
 
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_USES_MINI_GAPPS := true
 TARGET_ENABLE_BLUR := false
 
